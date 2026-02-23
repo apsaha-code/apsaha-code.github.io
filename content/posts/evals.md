@@ -2,14 +2,14 @@
 title = "Evaluations - a leadership angle!"
 date = 2025-12-06
 [taxonomies]
-tags = ["evals"]
+tags = ["evals", "leadership"]
 +++
 
 Evaluation is often framed as a technical challenge: better datasets, better metrics, more labels, more benchmarks. When  AI systems fail, the instinct is to look for gaps in the evaluation pipeline or shortcomings in the model.
 
 From working on building foundation-model to Applied AI systems in real deployments, I’ve come to believe **this framing is incomplete**.
 
-Many evaluation failures persist not because teams lack technical capability, but because evaluation is fundamentally a leadership problem. It sits at the intersection of uncertainty, incentives, judgment, and accountability — areas where technical improvements alone are rarely sufficient.
+Many evaluation failures persist not because teams lack technical capability, but because evaluation is fundamentally a leadership problem. It sits at the intersection of uncertainty, incentives, judgment, product understanding and accountability — areas where technical improvements alone are rarely sufficient.
 
 <!-- more -->
 
@@ -22,7 +22,7 @@ In production settings, evaluation rarely answers a clean question like “Is th
 
 These are not questions with crisp technical answers. These require judgment, and that judgment cannot be fully delegated to metrics.
 
-What I’ve experienced repeatedly is that teams can surface uncertainty, but struggle with how to act on it. When that happens, evaluation drifts toward reassurance rather than decision support: metrics are produced, dashboards look healthy, yet underlying risks remain poorly examined.
+What I’ve experienced repeatedly is that teams can surface uncertainty, **but struggle with how to act on it**. When that happens, evaluation drifts toward reassurance rather than decision support: metrics are produced, dashboards look nice, yet underlying risks remain poorly examined.
 
 ### Metrics rarely fail in isolation
 
@@ -38,7 +38,7 @@ The incentives subtly reshape interpretation:
 
 ➜  Ambiguous signals are resolved optimistically  
 ➜  Proxy metrics are treated as outcomes  
-➜  Uncertainty gets reframed as “acceptable risk” without being fully articulated
+➜  Uncertainty is reframed as “acceptable risk” without being fully articulated/understood.
 
 Once this dynamic sets in, adding more data or more metrics tends to increase confidence faster than it increases understanding.
 
@@ -52,9 +52,9 @@ At some point, evaluation is not just about measurement but also drives the choi
 
 One pattern I’ve seen repeatedly is evaluation being treated as an extension of the development process. The same team that builds the system are asked to define, track, and interpret the evaluation metrics.
 
-This is understandable. Development teams know the system best. They are closest to the implementation details. Evaluation, however, is not about optimization. It is about adjudication.
+This is understandable. Development teams know the models best. They are closest to the implementation details. Evaluation, however, is not about optimization. It is about adjudication.
 
-It requires someone willing to say:
+It requires someone with knowledge and authority to say:
 
 * This improvement is not meaningful.
 * This metric does not reflect the real objective.
@@ -107,10 +107,7 @@ That ownership clarity changes behavior in subtle but important ways:
 
 Without clear — and correct — ownership, evaluation risks becoming an endless refinement exercise that never meaningfully constrains action.
 
-A development team owns the responsibility then to perform the technical implementation, make sure the metrics are reproducbile, design correct baselines etc.
-
-
-### Evaluation reflects values and goals, not just technical skills
+### Evaluation also reflects values and goals, not just technical skills
 
 What gets evaluated and what is ignored reveals what an organization actually values. 
 

@@ -14,4 +14,4 @@ Views here are entirely my own and focus on patterns rather than any proprietary
 
 ---
 
-Find me on [LinkedIn](https://www.linkedin.com/in/arpitas).
+[LinkedIn](https://www.linkedin.com/in/arpitas).
