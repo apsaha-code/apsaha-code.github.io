@@ -5,24 +5,36 @@ template = "page.html"
 
 ## Tempus AI
 
-**VP, AI & Research** · 2023–present
+**VP, AI & Research** · Dec 2023 – present
 
-Leading development of multimodal Oncology Foundation Models and applied AI systems across clinical and research domains. Work spans foundation model design, large-scale training infrastructure, evaluation frameworks, and deploying AI in regulated healthcare environments.
+[Tempus](https://www.tempus.com) is a precision oncology company applying AI to large-scale clinical, molecular, and imaging data to power diagnostics, research, and therapeutic development.
+
+Foundational AI leadership hire, responsible for the company's AI operating model as AI became a core strategic pillar. Leading a cross-company Oncology Foundation Model initiative spanning Tempus, AstraZeneca, and Pathos — focused on longitudinal patient understanding across multimodal data. In addition, leading three internal organizations: an AI training platform, Diagnostics AI, and Research AI. Hired and scaled a 70+ person org of researchers, engineers, and product managers.
 
 ---
 
 ## Google
 
-**ML Leader** · 2012–2023
+**ML Leader** · Nov 2012 – Dec 2023
 
-### Applied ML & ML Platform
-Built production-grade AI systems and ML infrastructure across Ads, Safety, and enterprise products at global scale. Led platform work enabling cross-org model development and deployment.
-
-### Ads & Safety AI
-Delivered applied machine learning systems for ads relevance and content safety at global scale.
+Eleven years across Core and Ads ML teams, growing from IC to engineering manager leading multi-team organizations. Work spanned applied ML, ML platforms, LLM and generative AI systems, and abuse prevention — delivering production-grade systems at global scale across consumer and enterprise products.
 
 ---
 
-## Publications & Talks
+## Publications
 
-*(Add links to papers, conference talks, and public writing here)*
+Selected work from 2025–2026 presented at ASCO and AACR:
+
+- Evaluation of LLM-based clinical abstraction of EHR for non-small cell lung cancer patients
+- Querying a large oncology database with Generative AI
+- Patient records to timelines: A LLM-based approach for summarizing oncology patient history
+- Impact of large language models on trial-to-patient matching efficiency
+- A NLP approach for OCR-resilient extraction and structuring of karyotype data in oncology clinical notes
+
+---
+
+## Education
+
+**University of Washington, Seattle** — M.S. Computer Science and Engineering
+
+**National Institute of Technology, India** — B.E. Electrical Engineering
