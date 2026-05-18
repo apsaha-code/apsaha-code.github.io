@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{% if page.description %}{{ page.description }}{% elif page.summary %}{{ page.summary | striptags | truncate(length=160) }}{% endif %}{% endblock description %}
+
+{% block content %}
+<article>
+  <div class="article-header">
+    <h1>{{ page.title }}</h1>
+    <div class="article-meta">
+      {% if page.date %}
+        <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+      {% endif %}
+      {% if page.updated %}
+        &middot; updated {{ page.updated | date(format="%B %d, %Y") }}
+      {% endif %}
+      {% if page.reading_time %}
+        &middot; {{ page.reading_time }} min read
+      {% endif %}
+      {% if page.taxonomies.tags is defined %}
+        &middot;
+        {% for tag in page.taxonomies.tags %}
+          <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="article-body">
+    {{ page.content | safe }}
+  </div>
+</article>
+
+{% if page.lower or page.higher %}
+<nav class="post-nav">
+  {% if page.higher %}
+  <a class="post-nav-item post-nav-prev" href="{{ page.higher.permalink }}">
+    <span class="nav-dir">← Previous</span>
+    <span class="nav-title">{{ page.higher.title }}</span>
+  </a>
+  {% endif %}
+  {% if page.lower %}
+  <a class="post-nav-item post-nav-next" href="{{ page.lower.permalink }}">
+    <span class="nav-dir">Next →</span>
+    <span class="nav-title">{{ page.lower.title }}</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+
+{% block content %}
+{% set all_tags = get_taxonomy(kind="tags") %}
+{% if all_tags.items | length > 0 %}
+<div class="tag-bar">
+  {% for term in all_tags.items | sort(attribute="name") %}
+  <a href="{{ term.permalink }}" class="tag-pill">#{{ term.name }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if paginator is defined %}
+  {% set pages = paginator.pages %}
+{% else %}
+  {% set pages = section.pages %}
+{% endif %}
+
+<div class="posts-list">
+  {% for page in pages %}
+  <div class="post-item">
+    <div class="post-date">{{ page.date | date(format="%b %Y") }}</div>
+    <div class="post-info">
+      <span class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></span>{% if page.taxonomies.tags is defined %}<span class="post-tags">{% for tag in page.taxonomies.tags %}#{{ tag }}{% if not loop.last %} {% endif %}{% endfor %}</span>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if paginator is defined and paginator.number_pagers > 1 %}
+<nav class="pager">
+  {% if paginator.previous %}<a href="{{ paginator.previous }}">← Newer</a>{% endif %}
+  <span>{{ paginator.current_index }} / {{ paginator.number_pagers }}</span>
+  {% if paginator.next %}<a href="{{ paginator.next }}">Older →</a>{% endif %}
+</nav>
+{% endif %}
+{% endblock content %}

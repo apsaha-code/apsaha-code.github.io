@@ -1,41 +1,11 @@
-# The URL the site will be built for
 base_url = "https://apsaha-code.github.io"
-
-# Site title
 title = "Arpita Saha"
+compile_sass = false
+build_search_index = false
 
-# Use Duckquill theme
-theme = "duckquill"
-
-# Whether to automatically compile Sass files
-compile_sass = true
-
-# Build search index
-build_search_index = true
-
-# Enable taxonomies (tags + categories)
 taxonomies = [
-  { name = "tags", feed = true }
+  { name = "tags", feed = false }
 ]
 
 [extra]
 author = "Arpita Saha"
-show_copy_button = true
-show_reading_time = true
-show_share_button = true
-show_date = true
-show_taxonomies = true
-styles = ["custom.css"]
-
-[extra.nav]
-show_feed = true
-show_theme_switcher = true
-show_repo = false
-
-links = [
-  { url = "@/posts/_index.md", name = "Posts" },
-]
-
-[extra.social]
-linkedin = "https://www.linkedin.com/in/arpitas"
-
