@@ -8,4 +8,4 @@ This is where I keep my running notes — things I’m thinking through, pattern
 
 I’m currently with [Tempus AI](https://www.tempus.com), where I lead development of multimodal Oncology Foundation Models and applied AI systems across clinical and research domains. Previously, at Google, I worked on Applied ML and ML Platform teams delivering production-grade AI systems across Ads, Safety, and enterprise products at global scale.
 
-Views here are entirely my own and focus on patterns rather than any proprietary details.
+Views here are entirely my own and focus on patterns rather than any proprietary details. Brevity is not my forte, but I am working on it.
