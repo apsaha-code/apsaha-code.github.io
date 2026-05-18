@@ -21,6 +21,15 @@ Eleven years across Core and Ads ML teams, growing from IC to engineering manage
 
 ---
 
+## Writing & Talks
+
+- Tempus webinar: Unlocking foundation models — Our experience from proof of concept to deploying at scale
+- Panel member, Google Cancer-AI Symposium 2025
+- Feb 2026, Tempus blog: Building the engine to scale data abstraction through AI
+- Oct 2025, Tempus blog: Improving patient matching efficiency with an AI powered platform
+
+---
+
 ## Publications
 
 Selected work from 2025–2026 presented at ASCO and AACR:
