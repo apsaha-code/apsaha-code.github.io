@@ -14,7 +14,7 @@
       {% if page.updated %}
         &middot; updated {{ page.updated | date(format="%B %d, %Y") }}
       {% endif %}
-      {% if page.reading_time %}
+      {% if page.reading_time and not page.extra.hide_reading_time %}
         &middot; {{ page.reading_time }} min read
       {% endif %}
       {% if page.taxonomies.tags is defined %}

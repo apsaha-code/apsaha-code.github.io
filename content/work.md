@@ -1,7 +1,12 @@
 +++
 title = "work"
 template = "page.html"
+
+[extra]
+hide_reading_time = true
 +++
+
+<p class="work-nav"><a href="#tempus-ai">Tempus AI</a> · <a href="#google">Google</a> · <a href="#writing-talks">Writing & Talks</a> · <a href="#public-work">Public Work</a> · <a href="#patents">Patents</a> · <a href="#education">Education</a></p>
 
 ## Tempus AI
 
@@ -9,13 +14,15 @@ template = "page.html"
 
 [Tempus](https://www.tempus.com) is a precision oncology company applying AI to large-scale clinical, molecular, and imaging data to power diagnostics, research, and therapeutic development.
 
-Responsible for the company's AI operating model as AI became a core strategic pillar. Leading a cross-company Oncology Foundation Model initiative spanning Tempus, AstraZeneca, and Pathos — focused on longitudinal patient understanding across multimodal data. In addition, leading three internal organizations: an AI training platform, Diagnostics AI, and Research AI. Built and lead a large team of researchers, engineers, and product managers representing 70+ in AI work across the organization.
+Joined pre-IPO as a foundational AI leadership hire, reporting to the CTO. Part of the pre-IPO leadership team — participated in technical diligence and strategic AI discussions, and helped shape collaborations and partnerships with SoftBank, Google, and other top tech and life science players. Regularly present to the board on AI strategy.
+
+Responsible for the company's AI operating model as AI became a core strategic pillar. Leading a cross-company Oncology Foundation Model initiative spanning Tempus, AstraZeneca, and Pathos — focused on longitudinal patient understanding across multimodal data. In addition, leading three internal organizations: an AI training platform, Diagnostics AI, and Research AI. Built and lead a large team of researchers, engineers, and product managers representing 100+ in AI work across the organization.
 
 ---
 
 ## Google
 
-**ML Leader** · Nov 2012 – Dec 2023
+**ML Leader** · multiple leadership roles including Uber TL and Engineering Manager · Nov 2012 – Dec 2023
 
 Eleven years across Core and Ads ML teams, growing from IC to engineering manager leading multi-team organizations. Work spanned Applied ML, ML platforms, LLM and generative AI systems, and abuse prevention — delivering production-grade systems at global scale across consumer and enterprise products.
 

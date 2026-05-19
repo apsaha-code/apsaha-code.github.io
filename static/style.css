@@ -179,6 +179,21 @@ nav {
   border-color: var(--color-name);
 }
 
+.work-nav {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: -1.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.work-nav a {
+  color: var(--color-name);
+  text-decoration: none;
+}
+
+.work-nav a:hover { opacity: 0.7; }
+
 .posts-list {}
 
 .post-item {
