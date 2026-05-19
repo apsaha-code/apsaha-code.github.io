@@ -8,11 +8,11 @@ tags = ["evals", "leadership"]
 
 Evaluation is often framed as a technical challenge: better datasets, better metrics, more labels, more benchmarks. When AI systems fail, the instinct is to look for gaps in the evaluation pipeline or shortcomings in the model.
 
+<!-- more -->
+
 From working on building foundation-model to Applied AI systems in real deployments, I've come to believe **this framing is incomplete**.
 
 Many evaluation failures persist not because teams lack technical capability, but because evaluation is fundamentally a leadership problem. It sits at the intersection of uncertainty, incentives, judgment, product understanding and accountability — areas where technical improvements alone are rarely sufficient.
-
-<!-- more -->
 
 ### where evaluation gets hard
 

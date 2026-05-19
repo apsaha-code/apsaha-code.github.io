@@ -27,7 +27,7 @@
         <span class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></span>{% if page.taxonomies.tags is defined %}<span class="post-tags">{% for tag in page.taxonomies.tags %}#{{ tag }}{% if not loop.last %} {% endif %}{% endfor %}</span>{% endif %}
       </div>
       {% if page.summary %}
-      <div class="post-excerpt">{{ page.summary | striptags | truncate(length=260, end="") }}<a href="{{ page.permalink }}" class="post-excerpt-more">read more →</a></div>
+      <div class="post-excerpt">{{ page.summary | striptags }}<a href="{{ page.permalink }}" class="post-excerpt-more">read more →</a></div>
       {% endif %}
     </div>
   </div>
