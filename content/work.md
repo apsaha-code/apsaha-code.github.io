@@ -14,9 +14,9 @@ hide_reading_time = true
 
 [Tempus](https://www.tempus.com) is a precision oncology company applying AI to large-scale clinical, molecular, and imaging data to power diagnostics, research, and therapeutic development.
 
-Joined pre-IPO as a foundational AI leadership hire, reporting to the CTO. Part of the pre-IPO leadership team — participated in technical diligence and strategic AI discussions, and helped shape collaborations and partnerships with SoftBank, Google, and other top tech and life science players. Regularly present to the board on AI strategy.
+Joined pre-IPO as a foundational AI leadership hire. Part of the pre-IPO leadership team — participated in technical diligence and strategic AI discussions, and helped shape collaborations and partnerships with SoftBank, Google, and other top tech and life science players. Regularly present to the board on AI strategy.
 
-Responsible for the company's AI operating model as AI became a core strategic pillar. Leading a cross-company Oncology Foundation Model initiative spanning Tempus, AstraZeneca, and Pathos — focused on longitudinal patient understanding across multimodal data. In addition, leading three internal organizations: an AI training platform, Diagnostics AI, and Research AI. Built and lead a large team of researchers, engineers, and product managers representing 100+ in AI work across the organization.
+Responsible for the company's AI operating model as AI became a core strategic pillar. Leading a cross-company Oncology Foundation Model initiative spanning Tempus, AstraZeneca, and Pathos — focused on longitudinal patient understanding across multimodal data. In addition, leading three organizations: AI training platform, Diagnostics AI, and Medical Research AI. Built and lead a large team of researchers, engineers, and product managers representing 100+ in AI work across the organization.
 
 ---
 
