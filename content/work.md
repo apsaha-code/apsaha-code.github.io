@@ -17,7 +17,7 @@ Responsible for the company's AI operating model as AI became a core strategic p
 
 **ML Leader** · Nov 2012 – Dec 2023
 
-Eleven years across Core and Ads ML teams, growing from IC to engineering manager leading multi-team organizations. Work spanned applied ML, ML platforms, LLM and generative AI systems, and abuse prevention — delivering production-grade systems at global scale across consumer and enterprise products.
+Eleven years across Core and Ads ML teams, growing from IC to engineering manager leading multi-team organizations. Work spanned Applied ML, ML platforms, LLM and generative AI systems, and abuse prevention — delivering production-grade systems at global scale across consumer and enterprise products.
 
 ---
 

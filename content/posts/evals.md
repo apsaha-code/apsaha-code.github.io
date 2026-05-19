@@ -52,7 +52,7 @@ What gets evaluated and what is ignored reveals what an organization actually va
 
 ### My learnings
 
-When reviewing applied AI systems or initiating work on building a new one, I pay less attention to whether evaluation artifacts exist and more attention to who owns them and how they are used. The questions I return to are: who owns these metrics and are they accountable for outcomes, what decision would actually change if these signals worsened, where might we be overconfident, and what uncertainty are we accepting implicitly.
+When reviewing Applied AI systems or initiating work on building a new one, I pay less attention to whether evaluation artifacts exist and more attention to who owns them and how they are used. The questions I return to are: who owns these metrics and are they accountable for outcomes, what decision would actually change if these signals worsened, where might we be overconfident, and what uncertainty are we accepting implicitly.
 
 As AI systems become more capable and more consequential, evaluation will continue to be discussed primarily as a technical challenge. My experience suggests that many of the costly failures are not caused by missing metrics or insufficient data — they are caused by unclear ownership when tradeoffs arise and a reluctance to make uncomfortable decisions.
 
