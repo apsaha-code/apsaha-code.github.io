@@ -1,5 +1,5 @@
 +++
-title = "Work"
+title = "work"
 template = "page.html"
 +++
 
@@ -21,7 +21,7 @@ Eleven years across Core and Ads ML teams, growing from IC to engineering manage
 
 ---
 
-## Writing & Talks
+## writing & talks
 
 - Tempus webinar: Unlocking foundation models — Our experience from proof of concept to deploying at scale
 - Panel member, Google Cancer-AI Symposium 2025
@@ -30,7 +30,7 @@ Eleven years across Core and Ads ML teams, growing from IC to engineering manage
 
 ---
 
-## Public Work
+## public work
 
 Selected work from 2025–2026 presented at ASCO and AACR:
 
@@ -42,7 +42,7 @@ Selected work from 2025–2026 presented at ASCO and AACR:
 
 ---
 
-## Patents
+## patents
 
 - [US20240404702A1](https://patents.google.com/patent/US20240404702A1): Systems and Methods for Deploying a Machine-Learning Model for Performing a Specific Clinical Task
 - [WO2024249684A2](https://patents.google.com/patent/WO2024249684A2): Systems and methods for generating and deploying task-specific agents
@@ -52,6 +52,6 @@ Selected work from 2025–2026 presented at ASCO and AACR:
 
 ---
 
-## Education
+## education
 
 **University of Washington, Seattle** — M.S. Computer Science and Engineering

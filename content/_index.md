@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-# Hi — I’m Arpita.
+# hi — I’m Arpita.
 
 This is where I keep my running notes — things I’m thinking through, patterns I keep returning to, and learnings I want to hold on to. I write about my perspective on multimodal foundation model development, LLM-powered systems, AI governance, scaling ML organizations, lessons from taking research to production, and leadership judgement in real-world systems.
 
