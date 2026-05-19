@@ -26,6 +26,17 @@
     </div>
   </div>
 
+  {% if page.toc | length > 0 and not page.extra.hide_reading_time %}
+  <nav class="post-toc">
+    <div class="toc-label">in this post</div>
+    <div class="toc-items">
+      {% for h in page.toc %}
+      <div class="toc-item"><a href="{{ h.permalink | safe }}">{{ h.title }}</a></div>
+      {% endfor %}
+    </div>
+  </nav>
+  {% endif %}
+
   <div class="article-body">
     {{ page.content | safe }}
   </div>

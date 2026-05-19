@@ -179,6 +179,36 @@ nav {
   border-color: var(--color-name);
 }
 
+.post-toc {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.toc-label {
+  display: block;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.toc-items {
+  padding-left: 1rem;
+}
+
+.toc-item {
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.post-toc a {
+  color: var(--color-name);
+  text-decoration: none;
+}
+
+.post-toc a:hover { opacity: 0.7; }
+
 .work-nav {
   font-family: var(--font-sans);
   font-size: 0.82rem;
