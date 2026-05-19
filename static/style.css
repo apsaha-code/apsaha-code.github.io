@@ -180,6 +180,7 @@ nav {
 }
 
 .post-toc {
+  display: block;
   font-family: var(--font-sans);
   font-size: 0.82rem;
   margin-bottom: 2.5rem;
