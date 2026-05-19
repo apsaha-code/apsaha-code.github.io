@@ -30,7 +30,7 @@ Eleven years across Core and Ads ML teams, growing from IC to engineering manage
 
 ---
 
-## Publications
+## Public Work
 
 Selected work from 2025–2026 presented at ASCO and AACR:
 
@@ -55,5 +55,3 @@ Selected work from 2025–2026 presented at ASCO and AACR:
 ## Education
 
 **University of Washington, Seattle** — M.S. Computer Science and Engineering
-
-**National Institute of Technology, India** — B.E. Electrical Engineering
