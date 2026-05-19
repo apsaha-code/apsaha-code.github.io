@@ -271,6 +271,23 @@ nav {
   flex-shrink: 0;
 }
 
+.post-excerpt {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 0.2rem;
+}
+
+.post-excerpt-more {
+  display: block;
+  color: var(--color-name);
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+.post-excerpt-more:hover { opacity: 0.7; }
+
 /* ============================================================
    Article: header
    ============================================================ */
